@@ -1,9 +1,3 @@
-Absolutely ✅ — here’s a professional, complete **`README.md`** for your GitHub project **“Viyugam 64”**, written in a clean open-source–ready format.
-It includes badges, installation steps, explanations of the models, usage, and architecture overview.
-
----
-
-````markdown
 # ♟️ Viyugam 64
 
 **Viyugam 64** is an AI-powered Chess Automation system that **predicts and plays the next best move** directly on your computer’s chessboard screen using deep learning.  
@@ -62,7 +56,7 @@ Clone the repository:
 ```bash
 git clone https://github.com/bharath-shanmugasundaram/Viyugam-64.git
 cd Viyugam-64
-````
+```
 
 Install dependencies:
 
@@ -71,7 +65,6 @@ pip install -r requirements.txt
 ```
 
 **Example requirements:**
-
 ```text
 torch
 torchvision
@@ -102,10 +95,10 @@ model_files/
 
 ## 🧭 How It Works
 
-1. The program captures your chessboard screen region using `mss`.
-2. The **Board Model** predicts the board’s FEN structure.
-3. The **Move Model** predicts the next best move.
-4. It validates the move against legal moves using `python-chess`.
+1. The program captures your chessboard screen region using `mss`.  
+2. The **Board Model** predicts the board’s FEN structure.  
+3. The **Move Model** predicts the next best move.  
+4. It validates the move against legal moves using `python-chess`.  
 5. The move is executed via `pyautogui` mouse control.
 
 ---
@@ -113,27 +106,22 @@ model_files/
 ## ▶️ Usage
 
 ### 1️⃣ Set Board Region
-
 Optionally, run this function to manually resize the capture window:
-
 ```python
 create_resize_overlay()
 ```
-
 Press **SPACE** once aligned.
 
 ### 2️⃣ Run Prediction
-
 At the bottom of the script:
-
 ```python
 region = (32, 228, 692, 693)
 time.sleep(5)
 run_live_loop(region, color_flag=1)
 ```
 
-* `color_flag = 1` → You play **White**
-* `color_flag = 0` → You play **Black**
+- `color_flag = 1` → You play **White**  
+- `color_flag = 0` → You play **Black**  
 
 Press **ESC** anytime to stop the loop.
 
@@ -154,11 +142,9 @@ Predicted move: g1f3
 ## 🖼️ Debugging
 
 To debug the captured board image:
-
 ```bash
 debug_last_board.png
 ```
-
 This file saves the most recent captured board frame.
 
 ---
@@ -180,34 +166,34 @@ Viyugam-64/
 
 ## ⚡ Controls
 
-| Key     | Action              |
-| ------- | ------------------- |
-| `ESC`   | Stop live loop      |
+| Key | Action |
+|-----|---------|
+| `ESC` | Stop live loop |
 | `SPACE` | Lock overlay region |
 
 ---
 
 ## 💡 Future Enhancements
 
-* ✅ Real-time multi-angle board detection
-* ✅ Reinforcement learning–based move improvement
-* ✅ GUI dashboard with move history
-* ✅ Online chess platform integration
+- ✅ Real-time multi-angle board detection  
+- ✅ Reinforcement learning–based move improvement  
+- ✅ GUI dashboard with move history  
+- ✅ Online chess platform integration  
 
 ---
 
 ## 🧠 Inspiration
 
-> “Viyugam” (வியூகம்) means **Strategy** in Tamil —
+> “Viyugam” (வியூகம்) means **Strategy** in Tamil —  
 > inspired by the strategic depth of chess and modern AI decision-making.
 
 ---
 
 ## 🧑‍💻 Author
 
-**Bharath Shanmugasundaram**
-AI Engineer | Deep Learning Enthusiast
-📍 India
+**Bharath Shanmugasundaram**  
+AI Engineer | Deep Learning Enthusiast  
+📍 India  
 🔗 [GitHub Profile](https://github.com/bharath-shanmugasundaram)
 
 ---
@@ -221,10 +207,3 @@ This project is licensed under the **MIT License** – feel free to use, modify,
 ## 🌟 Support
 
 If you like this project, please ⭐ the repository — it really helps!
-
-```
-
----
-
-Would you like me to **add a section showing sample outputs (like screenshots or terminal art “Viyugam 64”)** or **convert this README into a stylized markdown with emojis, bold highlights, and colored code blocks** (for better GitHub presentation)?
-```
