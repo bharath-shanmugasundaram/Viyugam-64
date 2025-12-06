@@ -6,7 +6,7 @@ It combines **Computer Vision + Deep Learning + Automation** to observe the boar
 ---
 ## Demo
 
-<img width="1512" height="982" alt="Screenshot 2025-12-06 at 3 39 21 PM" src="https://github.com/user-attachments/assets/a05ed8c6-e754-4c9d-9df9-0d67a56099e7" /><a>https://www.youtube.com/watch?v=zzJouWQQ8to</a></img>
+![Screen Recording 2025-12-06 at 3 01 59 PM](https://github.com/user-attachments/assets/eb19d49b-4c66-4bb2-9b05-04c38f850d7f)
 
 ## 🚀 Features
 
