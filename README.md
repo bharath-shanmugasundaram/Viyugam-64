@@ -4,6 +4,9 @@
 It combines **Computer Vision + Deep Learning + Automation** to observe the board, predict the best move, and execute it using mouse control — just like a real player.
 
 ---
+## Demo
+
+
 
 ## 🚀 Features
 
