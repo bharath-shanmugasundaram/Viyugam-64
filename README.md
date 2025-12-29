@@ -2,7 +2,7 @@
   <a href="#-model-architecture">
     <img src="https://img.shields.io/badge/Architecture-View-blue?style=for-the-badge" />
   </a>
-  <a href="#-how-it-works">
+  <a href="https://leetcode.com/u/bharath_shanmugasundaram/">
     <img src="https://img.shields.io/badge/How%20It%20Works-Explore-green?style=for-the-badge" />
   </a>
   <a href="#-future-enhancements">
