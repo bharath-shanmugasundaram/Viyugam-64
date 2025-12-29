@@ -1,3 +1,16 @@
+<p align="center">
+  <a href="#-model-architecture">
+    <img src="https://img.shields.io/badge/Architecture-View-blue?style=for-the-badge" />
+  </a>
+  <a href="#-how-it-works">
+    <img src="https://img.shields.io/badge/How%20It%20Works-Explore-green?style=for-the-badge" />
+  </a>
+  <a href="#-future-enhancements">
+    <img src="https://img.shields.io/badge/Future%20Plans-Roadmap-orange?style=for-the-badge" />
+  </a>
+</p>
+
+
 # ♟️ Viyugam 64
 
 **Viyugam 64** is an AI-powered Chess Automation system that **predicts and plays the next best move** directly on your computer’s chessboard screen using deep learning.  
